@@ -15,17 +15,13 @@
 
 # Features
 ## Home Page without Tasks
-<details>
 
 ![Home Page without Tasks](images/NoTaskHomePage.png)
- </details>
 
 
 ## Completing a ToDo Task 
-<details>
 
-![Home Page with Tasks](images/TaskHomePage.png)
- </details>
+![Home Page with Tasks](images/TasksHomePage.png)
 
 
 # Technologies Used
