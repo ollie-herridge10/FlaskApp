@@ -39,7 +39,7 @@
 ## Deleting a Task
 * As you can see, I have deleted the bottom task from the page byt clicking the red Delete button.
 
-![Home Page with Tasks](images/DeletTask.png)
+![Home Page with Tasks](images/DeleteTask.png)
 
 
 
@@ -56,3 +56,4 @@
 
 
 # Deployment
+### Unable to deploy to GitHub Pages bit the screenshots above depict the live application.

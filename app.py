@@ -1,6 +1,7 @@
 from flask import Flask, render_template, redirect, url_for, request
 from flask_sqlalchemy import SQLAlchemy
 
+# Connecting to the database
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///sqlite.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -43,5 +44,6 @@ def delete(id):
     db.session.commit()
     return redirect(url_for('index'))
 
+# Turn on debug to point out any errors whilst running
 if __name__ == '__main__':
     app.run(debug=True)
