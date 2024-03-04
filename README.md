@@ -54,14 +54,13 @@
 
 ![Lighthouse Desktop](images/LighthouseDesktop.png)
 
-## Testing Process
 ### Creating Virtual Environment
 I created and tested the virtual environment by doing the following:
 1. python3 -m venv .venv
 2. .venv/bin/activate
 3. pip install Flask
 4. run flask 
-This process created and activated to virtual environment and then tested it on port 5000.
+5. This process created and activated to virtual environment and then tested it on port 5000.
 
 ### Testing if the database works and links up
 1. Created a new Todo Task and click Add
