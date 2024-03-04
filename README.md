@@ -54,6 +54,20 @@
 
 ![Lighthouse Desktop](images/LighthouseDesktop.png)
 
+## Testing Process
+# Creating Virtual Environment
+I created and tested the virtual environment by doing the following:
+1. python3 -m venv .venv
+2. .venv/bin/activate
+3. pip install Flask
+4. run flask 
+This process created and activated to virtual environment and then tested it on port 5000.
+
+# Testing if the database works and links up
+1. Created a new Todo Task and click Add
+2. In the terminal it shows POST and the specifc time the Task was added
+3. If this did not show, I was missing a POST or my grammar needed to be checked
+
 
 # Deployment
-### Unable to deploy to GitHub Pages bit the screenshots above depict the live application.
+Unable to deploy to GitHub Pages but the screenshots above depict the live application. For some reason my Github Pages is deploying my README file instead.
